@@ -11,7 +11,7 @@ if(edad >= 18){
     alert("Lo siento eres menor de edad por lo tanto no puedes pasar");
 }
 }
-
+controlDeEdad();
 
 for (let cantidadPersonas = 0; cantidadPersonas < capacidadMaxima; cantidadPersonas ++) {
     
@@ -26,5 +26,5 @@ for (let cantidadPersonas = 0; cantidadPersonas < capacidadMaxima; cantidadPerso
     break;
 }
 }
-controlDeEdad();
+
 
