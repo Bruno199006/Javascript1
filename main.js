@@ -2,16 +2,18 @@ let edad = Number(prompt("edad para ingresar a la discoteca?"));
 let capacidadMaxima = 100; 
 let cantidadPersonas = 0; 
 
+controlDeEdad();
+
 
 function controlDeEdad(){
 if(edad >= 18){
     alert("Podes entrar a la discoteca");
     
-}else if(edad<18){
+}else{
     alert("Lo siento eres menor de edad por lo tanto no puedes pasar");
 }
 }
-controlDeEdad();
+
 
 for (let cantidadPersonas = 0; cantidadPersonas < capacidadMaxima; cantidadPersonas ++) {
     
